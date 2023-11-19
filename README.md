@@ -1,1 +1,1 @@
-# example list with Recyclerview + MVP patern + Reactive X in Android
+# example list with Recyclerview + MVP architecture + Reactive X in Android
