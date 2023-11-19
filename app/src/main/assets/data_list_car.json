@@ -1,0 +1,252 @@
+[
+  {
+    "carId": 1,
+    "carName": "Toyota Camry",
+    "carDetail": "Mid-size sedan known for reliability and fuel efficiency."
+  },
+  {
+    "carId": 2,
+    "carName": "Honda Accord",
+    "carDetail": "Popular sedan with a comfortable ride and advanced safety features."
+  },
+  {
+    "carId": 3,
+    "carName": "Ford Mustang",
+    "carDetail": "Iconic American muscle car with powerful performance."
+  },
+  {
+    "carId": 4,
+    "carName": "Chevrolet Silverado",
+    "carDetail": "Full-size pickup truck with strong towing capabilities."
+  },
+  {
+    "carId": 5,
+    "carName": "Tesla Model S",
+    "carDetail": "Electric luxury sedan with impressive acceleration and range."
+  },
+  {
+    "carId": 6,
+    "carName": "Nissan Rogue",
+    "carDetail": "Compact SUV with spacious interior and advanced safety tech."
+  },
+  {
+    "carId": 7,
+    "carName": "BMW 3 Series",
+    "carDetail": "Luxury compact sedan known for its sporty handling."
+  },
+  {
+    "carId": 8,
+    "carName": "Mercedes-Benz GLE",
+    "carDetail": "Premium midsize SUV with a plush interior and cutting-edge features."
+  },
+  {
+    "carId": 9,
+    "carName": "Audi Q5",
+    "carDetail": "Compact luxury SUV with a stylish design and tech-forward interior."
+  },
+  {
+    "carId": 10,
+    "carName": "Hyundai Sonata",
+    "carDetail": "Affordable mid-size sedan with a comfortable ride."
+  },
+  {
+    "carId": 11,
+    "carName": "Jeep Wrangler",
+    "carDetail": "Off-road-capable SUV with a rugged and iconic design."
+  },
+  {
+    "carId": 12,
+    "carName": "Subaru Outback",
+    "carDetail": "Crossover with standard all-wheel drive and generous cargo space."
+  },
+  {
+    "carId": 13,
+    "carName": "Kia Telluride",
+    "carDetail": "Midsize SUV with a spacious and well-designed interior."
+  },
+  {
+    "carId": 14,
+    "carName": "Volvo XC90",
+    "carDetail": "Luxury SUV with a focus on safety and Scandinavian design."
+  },
+  {
+    "carId": 15,
+    "carName": "Mazda CX-5",
+    "carDetail": "Compact crossover with a stylish exterior and engaging driving dynamics."
+  },
+  {
+    "carId": 16,
+    "carName": "Chevrolet Bolt EV",
+    "carDetail": "Affordable electric car with a practical range for daily commuting."
+  },
+  {
+    "carId": 17,
+    "carName": "Ford F-150",
+    "carDetail": "Best-selling full-size pickup truck with various engine options."
+  },
+  {
+    "carId": 18,
+    "carName": "Lexus RX",
+    "carDetail": "Luxury crossover with a comfortable ride and upscale features."
+  },
+  {
+    "carId": 19,
+    "carName": "Volkswagen Golf",
+    "carDetail": "Compact hatchback known for its versatility and European styling."
+  },
+  {
+    "carId": 20,
+    "carName": "Porsche 911",
+    "carDetail": "Iconic sports car with a rear-engine design and thrilling performance."
+  },
+  {
+    "carId": 21,
+    "carName": "Toyota Prius",
+    "carDetail": "Hybrid car known for fuel efficiency and eco-friendly features."
+  },
+  {
+    "carId": 22,
+    "carName": "Ford Explorer",
+    "carDetail": "Popular midsize SUV with a spacious interior and advanced safety tech."
+  },
+  {
+    "carId": 23,
+    "carName": "Chevrolet Camaro",
+    "carDetail": "Muscle car with a sleek design and powerful V8 engine options."
+  },
+  {
+    "carId": 24,
+    "carName": "Tesla Model 3",
+    "carDetail": "Affordable electric sedan with impressive range and technology."
+  },
+  {
+    "carId": 25,
+    "carName": "Honda CR-V",
+    "carDetail": "Compact SUV with a comfortable ride and practical features."
+  },
+  {
+    "carId": 26,
+    "carName": "Subaru Forester",
+    "carDetail": "Compact SUV with all-wheel drive and excellent safety ratings."
+  },
+  {
+    "carId": 27,
+    "carName": "Audi A4",
+    "carDetail": "Luxury sedan with a refined interior and advanced tech features."
+  },
+  {
+    "carId": 28,
+    "carName": "Mercedes-Benz C-Class",
+    "carDetail": "Compact luxury sedan with a sophisticated design and performance."
+  },
+  {
+    "carId": 29,
+    "carName": "Ford Escape",
+    "carDetail": "Compact crossover with a stylish exterior and fuel-efficient options."
+  },
+  {
+    "carId": 30,
+    "carName": "Jeep Grand Cherokee",
+    "carDetail": "Midsize SUV known for its off-road capabilities and upscale interior."
+  },
+  {
+    "carId": 31,
+    "carName": "Hyundai Tucson",
+    "carDetail": "Compact SUV with a spacious cabin and user-friendly technology."
+  },
+  {
+    "carId": 32,
+    "carName": "Nissan Altima",
+    "carDetail": "Midsize sedan with a comfortable ride and fuel-efficient engines."
+  },
+  {
+    "carId": 33,
+    "carName": "BMW 5 Series",
+    "carDetail": "Luxury midsize sedan with a balance of performance and comfort."
+  },
+  {
+    "carId": 34,
+    "carName": "Volvo XC60",
+    "carDetail": "Compact luxury SUV with a modern design and advanced safety features."
+  },
+  {
+    "carId": 35,
+    "carName": "Mazda3",
+    "carDetail": "Compact car with stylish design and engaging driving dynamics."
+  },
+  {
+    "carId": 36,
+    "carName": "Chevrolet Equinox",
+    "carDetail": "Compact crossover with practical features and fuel-efficient options."
+  },
+  {
+    "carId": 37,
+    "carName": "Toyota Highlander",
+    "carDetail": "Midsize SUV with a spacious interior and family-friendly features."
+  },
+  {
+    "carId": 38,
+    "carName": "Lexus ES",
+    "carDetail": "Luxury sedan with a smooth ride and high-quality interior."
+  },
+  {
+    "carId": 39,
+    "carName": "Volkswagen Tiguan",
+    "carDetail": "Compact crossover with a refined interior and versatile seating."
+  },
+  {
+    "carId": 40,
+    "carName": "Porsche Cayenne",
+    "carDetail": "Luxury SUV with sports car performance and premium features."
+  },
+  {
+    "carId": 41,
+    "carName": "Ford Fusion",
+    "carDetail": "Midsize sedan with a stylish design and available hybrid options."
+  },
+  {
+    "carId": 42,
+    "carName": "Kia Sorento",
+    "carDetail": "Midsize SUV with a spacious cabin and advanced safety technology."
+  },
+  {
+    "carId": 43,
+    "carName": "Jaguar F-PACE",
+    "carDetail": "Luxury SUV with a combination of performance and elegance."
+  },
+  {
+    "carId": 44,
+    "carName": "Ram 1500",
+    "carDetail": "Full-size pickup truck with a comfortable interior and powerful engines."
+  },
+  {
+    "carId": 45,
+    "carName": "Acura MDX",
+    "carDetail": "Luxury SUV with three rows of seating and upscale features."
+  },
+  {
+    "carId": 46,
+    "carName": "Chevrolet Traverse",
+    "carDetail": "Midsize SUV with spacious seating and family-friendly features."
+  },
+  {
+    "carId": 47,
+    "carName": "Kia Sportage",
+    "carDetail": "Compact SUV with a distinctive design and practical features."
+  },
+  {
+    "carId": 48,
+    "carName": "Nissan Sentra",
+    "carDetail": "Compact sedan with a modern design and efficient fuel economy."
+  },
+  {
+    "carId": 49,
+    "carName": "Hyundai Kona",
+    "carDetail": "Compact crossover with a bold design and available electric option."
+  },
+  {
+    "carId": 50,
+    "carName": "Genesis G80",
+    "carDetail": "Luxury sedan with a focus on performance and premium materials."
+  }
+]
