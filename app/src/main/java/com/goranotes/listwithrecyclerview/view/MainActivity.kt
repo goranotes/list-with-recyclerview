@@ -29,6 +29,11 @@ class MainActivity : AppCompatActivity(), MainActivityContract.View {
         adapterCarList.notifyDataSetChanged()
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        presenter.onViewDetached()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
