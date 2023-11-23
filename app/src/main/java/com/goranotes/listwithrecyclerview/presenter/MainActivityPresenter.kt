@@ -19,12 +19,11 @@ class MainActivityPresenter(
 ): MainActivityContract.Presenter {
 
     private val disposable = CompositeDisposable()
-    val gson = Gson()
+    private val gson = Gson()
 
     override fun onViewDetached() {
         disposable.dispose()
     }
-
 
     private fun getDataFromJson(): Single<List<DataItemCarResponse>>{
 
@@ -32,7 +31,7 @@ class MainActivityPresenter(
             try {
                 val inputStream: InputStream = activity.assets.open("data_list_car.json")
                 val inputString = inputStream.bufferedReader().use{it.readText()}
-                val data: List<DataItemCarResponse> = Gson().fromJson(
+                val data: List<DataItemCarResponse> = gson.fromJson(
                     inputString,
                     object : TypeToken<List<DataItemCarResponse?>?>() {}.type
                 )
