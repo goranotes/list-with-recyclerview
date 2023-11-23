@@ -29,14 +29,17 @@ class MainActivityPresenter(
     private fun getDataFromJson(): Single<List<DataItemCarResponse>>{
 
         return Single.create { emitter ->
-
-            val inputStream: InputStream = activity.assets.open("data_list_car.json")
-            val inputString = inputStream.bufferedReader().use{it.readText()}
-            val data: List<DataItemCarResponse> = Gson().fromJson(
-                inputString,
-                object : TypeToken<List<DataItemCarResponse?>?>() {}.type
-            )
-            emitter.onSuccess(data)
+            try {
+                val inputStream: InputStream = activity.assets.open("data_list_car.json")
+                val inputString = inputStream.bufferedReader().use{it.readText()}
+                val data: List<DataItemCarResponse> = Gson().fromJson(
+                    inputString,
+                    object : TypeToken<List<DataItemCarResponse?>?>() {}.type
+                )
+                emitter.onSuccess(data)
+            } catch (e: Exception) {
+                emitter.onError(e)
+            }
         }
     }
 
@@ -51,7 +54,7 @@ class MainActivityPresenter(
                 }
 
                 override fun onError(e: Throwable) {
-                    view.showError("ERROR")
+                    view.showError(e.localizedMessage)
                 }
 
                 override fun onSuccess(t: List<DataItemCarResponse>) {
